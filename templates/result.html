@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f9fa; }
+        h1 { color: green; }
+        img { width: 30%; margin: 10px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+
+    <h1>Customer Segmentation Results</h1>
+
+    <div>
+        <img src="{{ url_for('static', filename='cluster_vs_amount.png') }}" alt="Cluster vs Monetary">
+        <img src="{{ url_for('static', filename='cluster_vs_frequency.png') }}" alt="Cluster vs Frequency">
+        <img src="{{ url_for('static', filename='cluster_vs_recency.png') }}" alt="Cluster vs Recency">
+    </div>
+
+</body>
+</html>

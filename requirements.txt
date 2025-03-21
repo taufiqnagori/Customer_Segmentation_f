@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+flask
+jupyter
+werkzeug==2.0.3
