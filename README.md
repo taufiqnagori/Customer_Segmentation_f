@@ -26,12 +26,14 @@ Customer segmentation is the practice of dividing a customer base into groups of
 ## Installation
 
 1. Clone the repository:
-   sh
-   git clone https://github.com/your-username/Customer_Segmentation_f.git
+            
+         git clone https://github.com/your-username/Customer_Segmentation_f.git
 
-   cd Customer_Segmentation_f
+   
+    cd Customer_Segmentation_f
 
 2. Create a virtual environment and activate it:
+
 
     python -m venv venv
 
@@ -51,10 +53,12 @@ Customer segmentation is the practice of dividing a customer base into groups of
 
 2. Run the customer_segmentation_debug.py script to preprocess the data and train the model:
 
+
     python customer_segmentation_debug.py
 
 
 3. Start the Flask application:
+
 
     python app.py
 
@@ -68,32 +72,31 @@ Customer segmentation is the practice of dividing a customer base into groups of
 
 Customer_Segmentation_f/
 
- [app.py](http://_vscodecontentref_/1)                      # Flask application
+├── [app.py](http://_vscodecontentref_/1)                      # Flask application 
 
-[customer_segmentation_debug.py](http://_vscodecontentref_/2)  # Data preprocessing and model training script
+├── [customer_segmentation_debug.py](http://_vscodecontentref_/2)  # Data preprocessing and model training script
 
-[requirements.txt](http://_vscodecontentref_/3)            # List of required packages
+├── [requirements.txt](http://_vscodecontentref_/3)            # List of required packages
 
-[kmeans_model.pkl](http://_vscodecontentref_/4)            # Trained K-Means model
+├── [kmeans_model.pkl](http://_vscodecontentref_/4)            # Trained K-Means model
 
-[scaler.pkl](http://_vscodecontentref_/5)                  # Scaler used for data normalization
+├── [scaler.pkl](http://_vscodecontentref_/5)                  # Scaler used for data normalization
 
-static/                     # Directory for static files (e.g., images)
+├── static/                     # Directory for static files (e.g., images)
 
-    cluster_vs_amount.png
+│   ├── cluster_vs_amount.png
 
-    cluster_vs_frequency.png
+│   ├── cluster_vs_frequency.png
 
-    cluster_vs_recency.png
+│   ├── cluster_vs_recency.png
 
-templates/                  # HTML templates for Flask
+├── templates/                  # HTML templates for Flask
 
-    index.html
-
-    result.html
-    
-[README.md](http://_vscodecontentref_/6)                   # Project documentation
-
+│   ├── index.html
+│
+│   ├── result.html
+│
+└── [README.md](http://_vscodecontentref_/6)                   # Project documentation
 
 
 ## Contributing
