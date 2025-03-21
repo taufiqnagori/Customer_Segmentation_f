@@ -93,9 +93,11 @@ Customer_Segmentation_f/
 ├── templates/                  # HTML templates for Flask
 
 │   ├── index.html
-│
+
+
 │   ├── result.html
-│
+
+
 └── [README.md](http://_vscodecontentref_/6)                   # Project documentation
 
 
