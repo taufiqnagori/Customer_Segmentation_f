@@ -67,20 +67,19 @@ Customer segmentation is the practice of dividing a customer base into groups of
 
 
 Customer_Segmentation_f/
-│
-├── [app.py](http://_vscodecontentref_/2)                      # Flask application
-├── [customer_segmentation_debug.py](http://_vscodecontentref_/3)  # Data preprocessing and model training script
-├── [requirements.txt](http://_vscodecontentref_/4)            # List of required packages
-├── [kmeans_model.pkl](http://_vscodecontentref_/5)            # Trained K-Means model
-├── [scaler.pkl](http://_vscodecontentref_/6)                  # Scaler used for data normalization
-├── static/                     # Directory for static files (e.g., images)
-│   ├── cluster_vs_amount.png
-│   ├── cluster_vs_frequency.png
-│   ├── cluster_vs_recency.png
-├── templates/                  # HTML templates for Flask
-│   ├── index.html
-│   ├── result.html
-└── [README.md](http://_vscodecontentref_/7)                   # Project documentation
+ [app.py](http://_vscodecontentref_/1)                      # Flask application
+[customer_segmentation_debug.py](http://_vscodecontentref_/2)  # Data preprocessing and model training script
+[requirements.txt](http://_vscodecontentref_/3)            # List of required packages
+[kmeans_model.pkl](http://_vscodecontentref_/4)            # Trained K-Means model
+[scaler.pkl](http://_vscodecontentref_/5)                  # Scaler used for data normalization
+static/                     # Directory for static files (e.g., images)
+    cluster_vs_amount.png
+    cluster_vs_frequency.png
+    cluster_vs_recency.png
+templates/                  # HTML templates for Flask
+    index.html
+    result.html
+[README.md](http://_vscodecontentref_/6)                   # Project documentation
 
 
 
