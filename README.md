@@ -69,17 +69,29 @@ Customer segmentation is the practice of dividing a customer base into groups of
 Customer_Segmentation_f/
 │
 ├── [app.py]
+
 ├── [customer_segmentation_debug.py]
+
 ├── [requirements.txt]
+
 ├── [kmeans_model.pkl]
+
 ├── [scaler.pkl]
+
 ├── static/
+
 │   ├── cluster_vs_amount.png
+
 │   ├── cluster_vs_frequency.png
+
 │   ├── cluster_vs_recency.png
+
 ├── templates/
+
 │   ├── index.html
+
 │   ├── result.html
+
 └── [README.md]
 
 
