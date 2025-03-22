@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Customer Segmentation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-title">Customer Segmentation</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>About Customer Segmentation Project</h1>
+        <h2>Project Overview</h2>
+        <p>
+            The Customer Segmentation project is a university-level project focused on segmenting customers based on their purchasing behavior using machine learning techniques. The project utilizes the K-Means clustering algorithm to identify distinct groups of customers, which can be used for targeted marketing and personalized customer experiences.
+        </p>
+        <h2>Objectives</h2>
+        <ul>
+            <li>To preprocess and clean customer data.</li>
+            <li>To calculate Recency, Frequency, and Monetary (RFM) values for each customer.</li>
+            <li>To apply the K-Means clustering algorithm to segment customers into distinct groups.</li>
+            <li>To visualize the resulting customer segments.</li>
+        </ul>
+        <h2>Features</h2>
+        <ul>
+            <li>Load and preprocess customer data from a CSV file.</li>
+            <li>Calculate RFM values for each customer.</li>
+            <li>Scale the RFM values for better clustering performance.</li>
+            <li>Apply K-Means clustering to segment customers.</li>
+            <li>Visualize the clusters using various plots.</li>
+        </ul>
+        <h2>What is Customer Segmentation?</h2>
+        <p>
+            Customer segmentation is the process of dividing customers into groups based on common characteristics so that companies can market to each group effectively and appropriately. It helps businesses understand their customers better and tailor their marketing strategies to meet the specific needs of different customer segments.
+        </p>
+        <h2>Why Use Customer Segmentation?</h2>
+        <p>
+            Customer segmentation allows businesses to:
+            <ul>
+                <li>Identify high-value customers and target them with personalized marketing campaigns.</li>
+                <li>Improve customer retention by understanding and addressing the needs of different customer segments.</li>
+                <li>Optimize marketing resources by focusing on the most profitable customer segments.</li>
+                <li>Enhance customer satisfaction by providing tailored products and services.</li>
+            </ul>
+        </p>
+        <h2>What is K-Means Clustering?</h2>
+        <p>
+            K-Means clustering is a popular unsupervised machine learning algorithm used to partition a dataset into K distinct, non-overlapping subsets (clusters). The algorithm aims to minimize the variance within each cluster and maximize the variance between different clusters. It is widely used for customer segmentation, image compression, and pattern recognition.
+        </p>
+        <h3>How K-Means Clustering Works</h3>
+        <ol>
+            <li><strong>Initialization</strong>: Select K initial centroids randomly from the dataset.</li>
+            <li><strong>Assignment</strong>: Assign each data point to the nearest centroid, forming K clusters.</li>
+            <li><strong>Update</strong>: Recalculate the centroids of the clusters by taking the mean of all data points in each cluster.</li>
+            <li><strong>Repeat</strong>: Repeat the assignment and update steps until the centroids no longer change or a maximum number of iterations is reached.</li>
+        </ol>
+        <h3>Advantages of K-Means Clustering</h3>
+        <ul>
+            <li>Simple and easy to implement.</li>
+            <li>Efficient for large datasets.</li>
+            <li>Works well when clusters are spherical and evenly sized.</li>
+            <li>Scalable to high-dimensional data.</li>
+            <li>Interpretable results for business applications.</li>
+            <li>Useful for exploratory data analysis and customer segmentation.</li>
+            <li>Can handle noisy and missing data.</li>
+            <li>Converges to a local optimum quickly.</li>
+            <li>Can be combined with other clustering algorithms for improved performance.</li>
+            <li>Widely used in various fields, including marketing, finance, and healthcare.</li>
+            <li>Open-source implementations available in popular libraries like scikit-learn and TensorFlow.</li>
+            <li>  </li>
+        </ul>
+        
+    </div>
+    <footer>
+        © 2025 Customer Segmentation Project
+    </footer>
+</body>
+</html>
